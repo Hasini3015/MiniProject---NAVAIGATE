@@ -1,0 +1,14 @@
+{
+  "name": "navaigate",
+  "version": "1.0.0",
+  "description": "NavAIgate - AI-Powered Travel Planning",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm install && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
